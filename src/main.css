@@ -1,0 +1,72 @@
+body {
+    line-height: 2;
+    background-color: aliceblue;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.plot {
+    background-color: yellow;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    background-image:url('./img/lawn.png');
+    background-repeat: repeat;
+}
+
+.road-right {
+    border-right-width: 15px;
+    border-right-color: gray;
+}
+
+.road-left {
+    border-left-width: 15px;
+    border-left-color: gray;
+}
+
+.road-top {
+    border-top-width: 15px;
+    border-top-color: gray;
+}
+
+.road-bottom {
+    border-bottom-width: 15px;
+    border-bottom-color: gray;
+}
+
+.badge {
+    margin-top: 5px
+}
+
+.toolbar {
+    right: 15px;
+    bottom: 5px;
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.landing {
+    margin: 150px;
+    background-color: white;
+}
